@@ -107,12 +107,14 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MessageGenerator\index.js" />
     <Content Include="packages.config" />
     <Content Include="appsettings.json" />
     <Content Include="host.json" />
     <Content Include="HelloWorld\function.json" />
     <Content Include="HelloWorld\project.json" />
     <Content Include="ImageProcessor\function.json" />
+    <Content Include="MessageGenerator\function.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -125,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelloWorld\HelloWorld.cs" />
+    <Compile Include="ImageProcessor\ImageProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

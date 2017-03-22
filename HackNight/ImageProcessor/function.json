@@ -6,6 +6,13 @@
       "direction": "in",
       "queueName": "image-queue",
       "connection": "AzureWebJobsDashboard"
+    },
+    {
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "images/{rand-guid}.jpg",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
     }
   ],
   "disabled": false
